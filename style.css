@@ -1,0 +1,38 @@
+/* Color Pallete
+Background Color: #472183;
+Primary Color: #4B56D2
+Secondary Color: #82C3EC
+Other Color: #F1F6F5
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #472183;
+    color: #F1F6F5;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-size: 2.6rem;
+}
+
+.title img {
+   border-radius: 2rem; 
+   height: 50rem;
+   width: 50rem;
+}
+
+.smallTitle {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.pageContent {
+    font-size: 1.4rem;
+}
