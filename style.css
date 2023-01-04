@@ -24,8 +24,8 @@ body {
 
 .title img {
    border-radius: 2rem; 
-   height: 50rem;
-   width: 50rem;
+   height: 25rem;
+   width: 25rem;
 }
 
 .smallTitle {
@@ -35,4 +35,49 @@ body {
 
 .pageContent {
     font-size: 1.4rem;
+}
+
+.link1 {
+    text-decoration: none;
+    color: white;
+}
+
+.pLink {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Link2 {
+    text-decoration: none;
+    color: white;
+}
+
+.pImage {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50rem;
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+
+
+
+@media (min-width: 800px) {
+    .title img {
+        width: 60rem;
+        height: 60rem;
+    }
+    
+    .pageContent {
+        font-size: 3rem;
+    }
+    
+    .smallTitle {
+        font-size: 3.5rem;
+    }
+    
+    .pLink {
+        font-size: 3rem;
+    }
 }
